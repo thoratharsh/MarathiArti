@@ -10,7 +10,7 @@ class ArtiDetailedViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_arti_detailed_view)
         when(Status.selectedName){
-            GodNames.GANPATI.name -> fullArtiText.text="Ganpatichi arti\nasasasasas\nasasasasas\nasasasasasasa\nsasasasasasas\nsdfdf\nsaas\n";
+            GodNames.GANPATI.name -> fullArtiText.text= getText(R.string.ganapati_arti) ;
             GodNames.SHANKAR.name -> fullArtiText.text="Shankrachi arti\nasasasasas\nasasasasasas\nasasasasasas\nsasasasasasa\nasasas"
         }
     }
