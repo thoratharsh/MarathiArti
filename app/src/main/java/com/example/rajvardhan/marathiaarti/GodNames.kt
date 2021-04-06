@@ -2,5 +2,10 @@ package com.example.rajvardhan.marathiaarti
 
 enum class GodNames(name: String){
     GANPATI("ganpati"),
-    SHANKAR("shankar")
+    SHANKAR("shankar"),
+    DATTA("datta"),
+    VITTHAL("vitthal"),
+    DEVI("devi"),
+    DNYANESHWAR("dnyaneshwar"),
+    GHALINLOTANGAN("ghalinlotangan")
 }

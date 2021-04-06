@@ -18,6 +18,26 @@ class MainActivity : AppCompatActivity() {
             openArtiDetailedView()
             Status.selectedName = GodNames.SHANKAR.name
         }
+        layGuruDatta.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.DATTA.name
+        }
+        layVitthal.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.VITTHAL.name
+        }
+        layDevi.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.DEVI.name
+        }
+        layDnyaneshwar.setOnClickListener {view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.DNYANESHWAR.name
+        }
+        layGhalinLotangan.setOnClickListener {view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.GHALINLOTANGAN.name
+        }
     }
 
     fun openArtiDetailedView(){
