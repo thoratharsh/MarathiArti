@@ -42,6 +42,10 @@ class MainActivity : AppCompatActivity() {
             openArtiDetailedView()
             Status.selectedName = GodNames.TUKARAM.name
         }
+        layEknath.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.EKNATH.name
+        }
     }
 
     fun openArtiDetailedView(){

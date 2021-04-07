@@ -8,5 +8,6 @@ enum class GodNames(name: String){
     DEVI("devi"),
     DNYANESHWAR("dnyaneshwar"),
     TUKARAM("tukaram"),
-    GHALINLOTANGAN("ghalinlotangan")
+    GHALINLOTANGAN("ghalinlotangan"),
+    EKNATH("eknath")
 }
