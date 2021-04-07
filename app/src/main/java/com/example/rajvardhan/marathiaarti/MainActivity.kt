@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity() {
             openArtiDetailedView()
             Status.selectedName = GodNames.GHALINLOTANGAN.name
         }
+        layTukaram.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.TUKARAM.name
+        }
     }
 
     fun openArtiDetailedView(){
