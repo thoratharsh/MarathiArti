@@ -20,11 +20,13 @@
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" android:id="@+id/layGanapati"
-                        android:background="@drawable/border" android:padding="4dp" android:layout_margin="4dp">
+                        android:background="@drawable/border" android:padding="4dp" android:layout_margin="4dp"
+                >
                     <ImageView
                             android:layout_width="70dp"
                             android:layout_height="70dp" app:srcCompat="@drawable/ganapti"
-                            android:id="@+id/imageGanapati" android:layout_gravity="left" android:paddingLeft="20dp"/>
+                            android:id="@+id/imageGanapati" android:layout_gravity="left" android:paddingLeft="20dp"
+                            android:elevation="3dp"/>
                     <TextView
                             android:text="आरती गणपतीची "
                             android:layout_width="250dp"
@@ -146,6 +148,32 @@
                 <LinearLayout
                         android:orientation="horizontal"
                         android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:id="@+id/layHanuman" android:layout_margin="4dp"
+                        android:padding="4dp" android:background="@drawable/border">
+                    <ImageView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp" app:srcCompat="@drawable/hanuman"
+                            android:id="@+id/imageHanuman" android:layout_gravity="left" android:paddingLeft="20dp"/>
+                    <TextView
+                            android:text="आरती हनुमंताची "
+                            android:layout_width="250dp"
+                            android:layout_height="wrap_content" android:id="@+id/textHanuman"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:paddingTop="20dp" android:paddingBottom="20dp"/>
+                    <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp" app:srcCompat="@drawable/play"
+                            android:id="@+id/playHanuman" android:layout_weight="1" android:layout_gravity="center"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_gravity="center">
+                <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
                         android:layout_height="match_parent" android:id="@+id/layDnyaneshwar"
                         android:layout_margin="4dp"
                         android:padding="4dp" android:background="@drawable/border">
@@ -193,34 +221,6 @@
                             android:layout_width="40dp"
                             android:layout_height="40dp" app:srcCompat="@drawable/play"
                             android:id="@+id/playTukaram" android:layout_weight="1"
-                            android:layout_gravity="center"/>
-                </LinearLayout>
-            </android.support.v7.widget.CardView>
-            <android.support.v7.widget.CardView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" android:layout_gravity="center">
-                <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent" android:id="@+id/layEknath"
-                        android:layout_margin="4dp"
-                        android:padding="4dp" android:background="@drawable/border">
-                    <ImageView
-                            android:layout_width="70dp"
-                            android:layout_height="70dp" app:srcCompat="@drawable/eknath"
-                            android:id="@+id/imageEknath" android:layout_gravity="left"
-                            android:paddingLeft="20dp"/>
-                    <TextView
-                            android:text=" आरती एकनाथांची "
-                            android:layout_width="250dp"
-                            android:layout_height="wrap_content" android:id="@+id/textEknath"
-                            android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
-                            android:paddingTop="20dp" android:paddingBottom="20dp"/>
-                    <ImageView
-                            android:layout_width="40dp"
-                            android:layout_height="40dp" app:srcCompat="@drawable/play"
-                            android:id="@+id/playEknath" android:layout_weight="1"
                             android:layout_gravity="center"/>
                 </LinearLayout>
             </android.support.v7.widget.CardView>

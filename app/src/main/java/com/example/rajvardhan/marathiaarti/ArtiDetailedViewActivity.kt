@@ -18,7 +18,7 @@ class ArtiDetailedViewActivity : AppCompatActivity() {
             GodNames.DNYANESHWAR.name -> fullArtiText.text = getText(R.string.dnyanesharanchi_arti);
             GodNames.GHALINLOTANGAN.name -> fullArtiText.text = getText(R.string.ghalinLotangan);
             GodNames.TUKARAM.name -> fullArtiText.text = getText(R.string.artiTukaram);
-            GodNames.EKNATH.name -> fullArtiText.text = getText(R.string.artiEknath);
+            GodNames.HANUMAN.name -> fullArtiText.text = getText(R.string.artiHanuman);
         }
     }
 }

@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity() {
         GodNames.DATTA to R.raw.dattaarti,
         GodNames.VITTHAL to R.raw.vitthalarti,
         GodNames.DEVI to R.raw.deviarti,
+        GodNames.HANUMAN to R.raw.artihanuman,
         GodNames.DNYANESHWAR to R.raw.dnyanarti,
         GodNames.TUKARAM to R.raw.tukaramarti,
-        GodNames.EKNATH to R.raw.eknatharti,
         GodNames.GHALINLOTANGAN to R.raw.ghalinlotangan
         )
 
@@ -68,6 +68,14 @@ class MainActivity : AppCompatActivity() {
             playAndPauseMediaFor(GodNames.DEVI, playDevi)
         }
 
+        layHanuman.setOnClickListener { view ->
+            openArtiDetailedView()
+            Status.selectedName = GodNames.HANUMAN.name
+        }
+        playHanuman.setOnClickListener {
+            playAndPauseMediaFor(GodNames.HANUMAN, playHanuman)
+        }
+
         layDnyaneshwar.setOnClickListener {view ->
             openArtiDetailedView()
             Status.selectedName = GodNames.DNYANESHWAR.name
@@ -92,13 +100,6 @@ class MainActivity : AppCompatActivity() {
             playAndPauseMediaFor(GodNames.TUKARAM, playTukaram)
         }
 
-        layEknath.setOnClickListener { view ->
-            openArtiDetailedView()
-            Status.selectedName = GodNames.EKNATH.name
-        }
-        playEknath.setOnClickListener {
-            playAndPauseMediaFor(GodNames.EKNATH, playEknath)
-        }
     }
 
     fun playAndPauseMediaFor(godName: GodNames, playButton: ImageView){
@@ -107,9 +108,9 @@ class MainActivity : AppCompatActivity() {
             GodNames.DATTA to playDurudatta,
             GodNames.VITTHAL to playVitthal,
             GodNames.DEVI to playDevi,
+            GodNames.HANUMAN to playHanuman,
             GodNames.DNYANESHWAR to playDnyaneshwar,
             GodNames.TUKARAM to playTukaram,
-            GodNames.EKNATH to playEknath,
             GodNames.GHALINLOTANGAN to playGhalinLotangan
         )
 
