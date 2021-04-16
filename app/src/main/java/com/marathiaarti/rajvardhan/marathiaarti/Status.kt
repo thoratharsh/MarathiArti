@@ -1,4 +1,4 @@
-package com.example.rajvardhan.marathiaarti
+package com.marathiaarti.rajvardhan.marathiaarti
 
 class Status{
     companion object {

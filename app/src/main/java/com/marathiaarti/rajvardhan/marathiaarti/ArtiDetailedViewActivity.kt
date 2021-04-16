@@ -1,7 +1,8 @@
-package com.example.rajvardhan.marathiaarti
+package com.marathiaarti.rajvardhan.marathiaarti
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.marathiaarti.rajvardhan.marathiaarti.R
 import com.startapp.sdk.adsbase.StartAppSDK
 import kotlinx.android.synthetic.main.activity_arti_detailed_view.*
 
