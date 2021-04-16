@@ -17,7 +17,7 @@
                 <action android:name="android.intent.action.VIEW" />
             </intent-filter>
         </activity>
-        <activity android:name=".ArtiDetailedViewActivity" android:parentActivityName=".MainActivity">
+        <activity android:name=".ArtiDetailedViewActivity">
         </activity>
         <meta-data
                 android:name="com.startapp.sdk.APPLICATION_ID"
