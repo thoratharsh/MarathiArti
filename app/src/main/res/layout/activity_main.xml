@@ -35,7 +35,7 @@
                             android:text="आरती गणपतीची "
                             android:layout_height="wrap_content" android:id="@+id/textGanapati"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp"
                             android:elevation="10dp" android:layout_width="0dp" android:layout_weight="4"/>
                     <ImageView
@@ -64,7 +64,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textShankar"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -90,7 +90,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textGuruDatta"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -117,7 +117,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textVitthal"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -143,7 +143,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textDevi"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -169,7 +169,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textHanuman"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -197,7 +197,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textDnyaneshwar"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -225,7 +225,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textTukaram"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
@@ -257,7 +257,7 @@
                             android:layout_width="0dp"
                             android:layout_height="wrap_content" android:id="@+id/textGhalinLotangan"
                             android:gravity="center_vertical|center_horizontal"
-                            android:textAlignment="gravity" android:textSize="25sp" android:textStyle="bold"
+                            android:textAlignment="gravity" android:textSize="23sp" android:textStyle="bold"
                             android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_weight="4"/>
                     <ImageView
                             android:layout_width="0dp"
